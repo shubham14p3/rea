@@ -1,0 +1,13 @@
+# JARVIS typed mode uses only the Python standard library.
+#
+# Voice mode (python jarvis.py --voice) needs these, installed on YOUR machine:
+#   pip install pyttsx3 SpeechRecognition PyAudio
+#
+# Notes:
+#   - PyAudio is needed for the microphone. On Windows, if pip fails,
+#     run: pip install pipwin && pipwin install pyaudio
+#   - Optional offline recognition: pip install faster-whisper
+#     then set JARVIS_STT=whisper
+pyttsx3
+SpeechRecognition
+PyAudio
